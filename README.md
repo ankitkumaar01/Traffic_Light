@@ -16,9 +16,6 @@ This is a simple web-based Traffic Light Simulation built using HTML, CSS, and J
 📱 Responsive Design
 Works well on desktop and mobile screens using CSS Flexbox and media queries.
 
-📷 Preview
-
-![Traffic Light Screenshot](screenshot.png) <!-- Optional: add a screenshot of your project -->
 
 🎥 Demo Video
 
@@ -26,7 +23,7 @@ Watch the live demo here: [ https://nkb-backend-media-static-tenxiitian.s3.ap-so
 
 ************************************************************
 🚀 Folder Structure
-_____________________________
+
 📦 traffic-light
  ┣ 📄 index.html
  ┣ 📄 style.css
