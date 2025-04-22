@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-color: #81d1ef;
+    color: #fff;
+    padding: 20px;
+}
+
+.title{
+    color: #1d1c3f;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.traffic_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    grid-gap: 50px;
+    padding: 20px 0px;
+    margin-top: 80px;
+}
+
+.bulb {
+    background-color: #494e66;
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+
+.button_light_group {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+.button_light_group button{
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    width: 90px;
+    height: 50px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.traffic_light{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #1d1c3f;
+    height: 300px;
+    width: 100px;
+    border-radius: 20px;
+}
+
+/*  Media Screen Size */
+
+@media screen and (min-width: 768px) {
+    .traffic_container{
+        flex-direction: row;
+        padding: 20px;
+    }
+
+    .traffic_light{
+        margin-left: 30px;
+    }
+}
+

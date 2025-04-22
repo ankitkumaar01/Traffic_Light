@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traffic Light</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Traffic Light</h1>
+        <div class="traffic_container">
+            <div class="button_light_group">
+                <button class="button" id="stopButton" onclick="turnOnRedLight()">Stop</button>
+                <button class="button" id="readyButton" onclick="turnOnYellowLight()">Ready</button>
+                <button class="button" id="goButton" onclick="turnOnGreenLight()">Go</button>
+            </div>
+            <div class="traffic_light">
+                <div id="redTraffic" class="bulb"></div>
+                <div id="yellowTraffic" class="bulb"></div>
+                <div id="greenTraffic" class="bulb"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
